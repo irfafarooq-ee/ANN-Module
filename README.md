@@ -146,6 +146,9 @@ The repository is organized as follows:
 #### - Presentation
   Provides detailed documentation of the overall project flow, covering ANN architecture, Q-format design decisions, control logic, and step-by-step scalar core integration.
 
+#### - Demo Video
+  Showing the running ANN module
+
 ---
 
 ## 🚀 Future Improvements
