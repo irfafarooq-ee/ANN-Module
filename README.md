@@ -85,12 +85,12 @@ Key principles:
 
 * Introduce a **custom opcode: `7'b1111111`**
 * In the control unit, detect this opcode to identify ANN instructions
-* Forward ANN instructions to the execute stage
+* Forward ANN instructions enable signal to execute stage and check it inside scalar core for additional time accuracy
 
 ### 🔹 Execute Stage
 
 * Instantiate the ANN module in the execute stage
-* Allow ANN execution only when opcode matches
+* Allow ANN execution only when opcode matches and ANN enable signal asserted (Needs to be added in the module)
 * While `done = 0`, **stall pipeline registers**
 * When `done = 1`, release the stall and resume execution
 
