@@ -1,0 +1,2 @@
+# ANN Module
+A customized ANN module containing one hidden layer that fetches three weights from consecutive locations in a weight file and multiplies them to three features of Q2.30 format obtained from three feature memory files. The final output layer performs a ReLU activation on the accumulated output and a quantizer unit adjusting the extended multiplied asnwer (Q4.60 after multiplication) to it's original size (i.e., Q2.30) while retaining maximum information.
