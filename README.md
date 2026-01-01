@@ -137,13 +137,13 @@ git clone https://github.com/irfafarooq-ee/ANN-Module
 
 The repository is organized as follows:
 
-- Vivado Project
+#### Vivado Project
   Contains the complete Vivado project, including all RTL source files, module definitions, and hardware design components required to synthesize and simulate the ANN module.
 
-- Testing
+#### Testing
   Includes C test programs and corresponding assembly code used to validate functionality, verify correctness, and test scalar core integration with the ANN module.
 
-- Presentation
+#### Presentation
   Provides detailed documentation of the overall project flow, covering ANN architecture, Q-format design decisions, control logic, and step-by-step scalar core integration.
 
 ---
