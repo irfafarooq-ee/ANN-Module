@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/Multiplx.v" \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/Multiply.v" \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/PE.v" \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/Quantizer.v" \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/Register_for_pipline.v" \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/Relu.v" \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/SRAM.v" \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/controller.v" \
+"../../../../../AI-based-Neural-Network-Processing-Unit-main/tb_PE.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

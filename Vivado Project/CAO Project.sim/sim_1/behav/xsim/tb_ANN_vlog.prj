@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../CAO Project.srcs/sources_1/new/ANN.sv" \
+"../../../../CAO Project.srcs/sources_1/new/MAC.sv" \
+"../../../../CAO Project.srcs/sources_1/new/Quantizer.sv" \
+"../../../../CAO Project.srcs/sources_1/new/ReLU.sv" \
+"../../../../CAO Project.srcs/sources_1/new/controller.sv" \
+"../../../../CAO Project.srcs/sources_1/new/pipe_reg.sv" \
+"../../../../CAO Project.srcs/sources_1/new/weight_file.sv" \
+"../../../../CAO Project.srcs/sim_1/new/tb_ANN.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

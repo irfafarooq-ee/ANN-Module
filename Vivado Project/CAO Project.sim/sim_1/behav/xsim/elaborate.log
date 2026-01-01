@@ -1,0 +1,39 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8a5f0322b66b4dae98169399e21ae9c1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ANN_behav xil_defaultlib.tb_ANN xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_in' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:75]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_out' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:76]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_in' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:96]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_out' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:97]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_in' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:114]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_out' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:115]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv" Line 1. Module ANN doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/controller.sv" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/weight_file.sv" Line 1. Module weight_file doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/MAC.sv" Line 1. Module MAC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg(n=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ReLU.sv" Line 1. Module ReLU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg(n=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Quantizer.sv" Line 1. Module Quantizer doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.weight_file
+Compiling module xil_defaultlib.pipe_reg
+Compiling module xil_defaultlib.MAC
+Compiling module xil_defaultlib.pipe_reg(n=64)
+Compiling module xil_defaultlib.ReLU
+Compiling module xil_defaultlib.Quantizer
+Compiling module xil_defaultlib.ANN
+Compiling module xil_defaultlib.tb_ANN
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ANN_behav

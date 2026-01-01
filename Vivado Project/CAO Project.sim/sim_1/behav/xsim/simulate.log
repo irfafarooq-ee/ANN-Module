@@ -1,0 +1,63 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Time=15000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=0 | result=00000000
+Controller: x_addr: 01, w_addr: 01, invalid: 0, flush: 0, count: 1
+Weight File: x: 10000000, w: 18000000
+Stage 1 Pipeline: x1: 08000000, w1: 10000000, count: 0
+MAC Unit: mac result: 0080000000000000, feed_in: 0000000000000000
+Stage 2 Pipeline: mac result: 0000000000000000, count: 0
+ReLU Unit: relu result: 0000000000000000
+Stage 3 Pipeline: relu result: 0000000000000000, count: 0
+Quantizer Unit: quantizer result: 00000000, done: 0
+-------------------------------------------------------------
+Time=25000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=0 | result=00000000
+Controller: x_addr: 02, w_addr: 02, invalid: 0, flush: 0, count: 2
+Weight File: x: 18000000, w: 08000000
+Stage 1 Pipeline: x1: 10000000, w1: 18000000, count: 1
+MAC Unit: mac result: 0200000000000000, feed_in: 0080000000000000
+Stage 2 Pipeline: mac result: 0080000000000000, count: 0
+ReLU Unit: relu result: 0080000000000000
+Stage 3 Pipeline: relu result: 0000000000000000, count: 0
+Quantizer Unit: quantizer result: 00000000, done: 0
+-------------------------------------------------------------
+Time=35000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=0 | result=02000000
+Controller: x_addr: 00, w_addr: 00, invalid: 0, flush: 0, count: 2
+Weight File: x: 08000000, w: 10000000
+Stage 1 Pipeline: x1: 18000000, w1: 08000000, count: 2
+MAC Unit: mac result: 02c0000000000000, feed_in: 0200000000000000
+Stage 2 Pipeline: mac result: 0200000000000000, count: 1
+ReLU Unit: relu result: 0200000000000000
+Stage 3 Pipeline: relu result: 0080000000000000, count: 0
+Quantizer Unit: quantizer result: 02000000, done: 0
+-------------------------------------------------------------
+Time=45000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=0 | result=08000000
+Controller: x_addr: 00, w_addr: 00, invalid: 0, flush: 0, count: 2
+Weight File: x: 08000000, w: 10000000
+Stage 1 Pipeline: x1: 08000000, w1: 10000000, count: 2
+MAC Unit: mac result: 0000000000000000, feed_in: 02c0000000000000
+Stage 2 Pipeline: mac result: 02c0000000000000, count: 2
+ReLU Unit: relu result: 02c0000000000000
+Stage 3 Pipeline: relu result: 0200000000000000, count: 1
+Quantizer Unit: quantizer result: 08000000, done: 0
+-------------------------------------------------------------
+Time=55000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=1 | result=0b000000
+Controller: x_addr: 00, w_addr: 00, invalid: 0, flush: 1, count: 2
+Weight File: x: 08000000, w: 10000000
+Stage 1 Pipeline: x1: 00000000, w1: 00000000, count: 2
+MAC Unit: mac result: 0000000000000000, feed_in: 0000000000000000
+Stage 2 Pipeline: mac result: 0000000000000000, count: 2
+ReLU Unit: relu result: 0000000000000000
+Stage 3 Pipeline: relu result: 02c0000000000000, count: 2
+Quantizer Unit: quantizer result: 0b000000, done: 1
+-------------------------------------------------------------
+Time=65000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=1 | result=0b000000
+Controller: x_addr: 00, w_addr: 00, invalid: 0, flush: 1, count: 2
+Weight File: x: 08000000, w: 10000000
+Stage 1 Pipeline: x1: 00000000, w1: 00000000, count: 2
+MAC Unit: mac result: 0000000000000000, feed_in: 0000000000000000
+Stage 2 Pipeline: mac result: 0000000000000000, count: 2
+ReLU Unit: relu result: 0000000000000000
+Stage 3 Pipeline: relu result: 02c0000000000000, count: 2
+Quantizer Unit: quantizer result: 0b000000, done: 1
+-------------------------------------------------------------
+$stop called at time : 65 ns : File "C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv" Line 72

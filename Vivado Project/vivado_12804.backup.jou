@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Dec 21 10:17:28 2025
+# Process ID: 12804
+# Current directory: C:/Vivado Projects/CAO Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20780 C:\Vivado Projects\CAO Project\CAO Project.xpr
+# Log file: C:/Vivado Projects/CAO Project/vivado.log
+# Journal file: C:/Vivado Projects/CAO Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Vivado Projects/CAO Project/CAO Project.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Vivado Projects/CAO Lab/decode.sv} {C:/Vivado Projects/CAO Lab/branch_comp.sv} {C:/Vivado Projects/CAO Lab/register_file.sv} {C:/Vivado Projects/CAO Lab/program_counter.sv} {C:/Vivado Projects/CAO Lab/processor.sv} {C:/Vivado Projects/CAO Lab/execute.sv} {C:/Vivado Projects/CAO Lab/fetch.sv} {C:/Vivado Projects/CAO Lab/memory.sv} {C:/Vivado Projects/CAO Lab/ALU.sv} {C:/Vivado Projects/CAO Lab/control_logic.sv} {C:/Vivado Projects/CAO Lab/imm_gen.sv} {C:/Vivado Projects/CAO Lab/data_hazard_unit.sv} {C:/Vivado Projects/CAO Lab/DMEM.sv} {C:/Vivado Projects/CAO Lab/pipelinetop.sv} {C:/Vivado Projects/CAO Lab/instruction_memory.sv} {C:/Vivado Projects/CAO Lab/writeback.sv}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/processor.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/processor.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/control_logic.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/control_logic.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/pipelinetop.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/pipelinetop.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/decode.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/decode.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/execute.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/execute.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/fetch.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/fetch.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/memory.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/memory.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/data_hazard_unit.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/data_hazard_unit.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/writeback.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/writeback.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/ALU.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/ALU.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/branch_comp.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/branch_comp.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/DMEM.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/DMEM.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/imm_gen.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/imm_gen.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/instruction_memory.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/instruction_memory.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/program_counter.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/program_counter.sv}}
+export_ip_user_files -of_objects  [get_files {{C:/Vivado Projects/CAO Lab/register_file.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Vivado Projects/CAO Lab/register_file.sv}}

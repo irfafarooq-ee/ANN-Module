@@ -1,0 +1,28 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/CAO/lab8/tb/dmem.sv,1766421973,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/fwd_logic.sv,,dmem,,,,,,,,
+C:/CAO/lab8/tb/imem.sv,1766421957,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/imm_gen.sv,,imem,,,,,,,,
+C:/CAO/lab8/tb/tb_top.sv,1766434426,systemVerilog,,,,tb_top,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv,1766431878,systemVerilog,,,,tb_ANN,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv,1766467850,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/MAC.sv,,ANN,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Branch_Control.sv,1765055154,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Flush_regs.sv,,Branch_Control,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Flush_regs.sv,1764150938,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/MAC.sv,,Flush_regs,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/MAC.sv,1766467850,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Quantizer.sv,,MAC,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Quantizer.sv,1766467850,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ReLU.sv,,Quantizer,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ReLU.sv,1765967169,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/controller.sv,,ReLU,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/alu_logic.sv,1765109285,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/branch_comp.sv,,alu_logic,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/branch_comp.sv,1765102484,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/control_unit.sv,,branch_comp,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/control_unit.sv,1766422684,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/controller.sv,,control_unit,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/controller.sv,1766466658,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv,,controller,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/fwd_logic.sv,1764336262,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/hazard_detection.sv,,fwd_logic,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/hazard_detection.sv,1764151610,systemVerilog,,C:/CAO/lab8/tb/imem.sv,,hazard_detection,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/imm_gen.sv,1765114919,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pc_pipe_reg.sv,,imm_gen,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pc_pipe_reg.sv,1766421672,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv,,pc_pipe_reg,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv,1766421756,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/weight_file.sv,,pipe_reg,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/program_counter.sv,1765096550,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/reg_file.sv,,program_counter,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/reg_file.sv,1764338047,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/rv32i_top.sv,,reg_file,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/rv32i_top.sv,1766465818,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/weight_file.sv,,rv32i_top,,,,,,,,
+C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/weight_file.sv,1765976685,systemVerilog,,C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv,,weight_file,,,,,,,,

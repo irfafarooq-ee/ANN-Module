@@ -1,0 +1,273 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec 23 10:31:42 2025
+# Process ID: 24480
+# Current directory: C:/Vivado Projects/CAO Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14528 C:\Vivado Projects\CAO Project\CAO Project.xpr
+# Log file: C:/Vivado Projects/CAO Project/vivado.log
+# Journal file: C:/Vivado Projects/CAO Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Vivado Projects/CAO Project/CAO Project.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 805.199 ; gain = 166.746
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 23 10:35:15 2025...
+in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ANN' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/weights.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/features.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/dmem.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/imem.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ANN_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ANN
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/MAC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Quantizer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Quantizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ReLU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/weight_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ANN
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+"xelab -wto 8a5f0322b66b4dae98169399e21ae9c1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ANN_behav xil_defaultlib.tb_ANN xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8a5f0322b66b4dae98169399e21ae9c1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ANN_behav xil_defaultlib.tb_ANN xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'ann_en' on this module [C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv:22]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 844.172 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ANN' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/weights.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/features.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/dmem.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/imem.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ANN_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ANN
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/MAC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Quantizer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Quantizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ReLU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/weight_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ANN
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+"xelab -wto 8a5f0322b66b4dae98169399e21ae9c1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ANN_behav xil_defaultlib.tb_ANN xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8a5f0322b66b4dae98169399e21ae9c1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ANN_behav xil_defaultlib.tb_ANN xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'ann_en' on this module [C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv:22]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ANN' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/weights.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/features.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/dmem.mem'
+INFO: [SIM-utils-43] Exported 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim/imem.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ANN_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ANN
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/MAC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Quantizer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Quantizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ReLU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/weight_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ANN
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+"xelab -wto 8a5f0322b66b4dae98169399e21ae9c1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ANN_behav xil_defaultlib.tb_ANN xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8a5f0322b66b4dae98169399e21ae9c1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ANN_behav xil_defaultlib.tb_ANN xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_in' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:75]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_out' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:76]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_in' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:96]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_out' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:97]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_in' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:114]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'data_out' [C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv:115]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ANN.sv" Line 1. Module ANN doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/controller.sv" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/weight_file.sv" Line 1. Module weight_file doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/MAC.sv" Line 1. Module MAC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg(n=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/ReLU.sv" Line 1. Module ReLU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg(n=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/pipe_reg.sv" Line 1. Module pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado Projects/CAO Project/CAO Project.srcs/sources_1/new/Quantizer.sv" Line 1. Module Quantizer doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.weight_file
+Compiling module xil_defaultlib.pipe_reg
+Compiling module xil_defaultlib.MAC
+Compiling module xil_defaultlib.pipe_reg(n=64)
+Compiling module xil_defaultlib.ReLU
+Compiling module xil_defaultlib.Quantizer
+Compiling module xil_defaultlib.ANN
+Compiling module xil_defaultlib.tb_ANN
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ANN_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Vivado Projects/CAO Project/CAO Project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_ANN_behav -key {Behavioral:sim_1:Functional:tb_ANN} -tclbatch {tb_ANN.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source tb_ANN.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=15000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=0 | result=00000000
+Controller: x_addr: 01, w_addr: 01, invalid: 0, flush: 0, count: 1
+Weight File: x: 10000000, w: 18000000
+Stage 1 Pipeline: x1: 08000000, w1: 10000000, count: 0
+MAC Unit: mac result: 0080000000000000, feed_in: 0000000000000000
+Stage 2 Pipeline: mac result: 0000000000000000, count: 0
+ReLU Unit: relu result: 0000000000000000
+Stage 3 Pipeline: relu result: 0000000000000000, count: 0
+Quantizer Unit: quantizer result: 00000000, done: 0
+-------------------------------------------------------------
+Time=25000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=0 | result=00000000
+Controller: x_addr: 02, w_addr: 02, invalid: 0, flush: 0, count: 2
+Weight File: x: 18000000, w: 08000000
+Stage 1 Pipeline: x1: 10000000, w1: 18000000, count: 1
+MAC Unit: mac result: 0200000000000000, feed_in: 0080000000000000
+Stage 2 Pipeline: mac result: 0080000000000000, count: 0
+ReLU Unit: relu result: 0080000000000000
+Stage 3 Pipeline: relu result: 0000000000000000, count: 0
+Quantizer Unit: quantizer result: 00000000, done: 0
+-------------------------------------------------------------
+Time=35000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=0 | result=02000000
+Controller: x_addr: 00, w_addr: 00, invalid: 0, flush: 0, count: 2
+Weight File: x: 08000000, w: 10000000
+Stage 1 Pipeline: x1: 18000000, w1: 08000000, count: 2
+MAC Unit: mac result: 02c0000000000000, feed_in: 0200000000000000
+Stage 2 Pipeline: mac result: 0200000000000000, count: 1
+ReLU Unit: relu result: 0200000000000000
+Stage 3 Pipeline: relu result: 0080000000000000, count: 0
+Quantizer Unit: quantizer result: 02000000, done: 0
+-------------------------------------------------------------
+Time=45000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=0 | result=08000000
+Controller: x_addr: 00, w_addr: 00, invalid: 0, flush: 0, count: 2
+Weight File: x: 08000000, w: 10000000
+Stage 1 Pipeline: x1: 08000000, w1: 10000000, count: 2
+MAC Unit: mac result: 0000000000000000, feed_in: 02c0000000000000
+Stage 2 Pipeline: mac result: 02c0000000000000, count: 2
+ReLU Unit: relu result: 02c0000000000000
+Stage 3 Pipeline: relu result: 0200000000000000, count: 1
+Quantizer Unit: quantizer result: 08000000, done: 0
+-------------------------------------------------------------
+Time=55000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=1 | result=0b000000
+Controller: x_addr: 00, w_addr: 00, invalid: 0, flush: 1, count: 2
+Weight File: x: 08000000, w: 10000000
+Stage 1 Pipeline: x1: 00000000, w1: 00000000, count: 2
+MAC Unit: mac result: 0000000000000000, feed_in: 0000000000000000
+Stage 2 Pipeline: mac result: 0000000000000000, count: 2
+ReLU Unit: relu result: 0000000000000000
+Stage 3 Pipeline: relu result: 02c0000000000000, count: 2
+Quantizer Unit: quantizer result: 0b000000, done: 1
+-------------------------------------------------------------
+Time=65000 ns | x1_addr=0 x2_addr=1 x3_addr=2 | rs1=0 | invalid=0 | done=1 | result=0b000000
+Controller: x_addr: 00, w_addr: 00, invalid: 0, flush: 1, count: 2
+Weight File: x: 08000000, w: 10000000
+Stage 1 Pipeline: x1: 00000000, w1: 00000000, count: 2
+MAC Unit: mac result: 0000000000000000, feed_in: 0000000000000000
+Stage 2 Pipeline: mac result: 0000000000000000, count: 2
+ReLU Unit: relu result: 0000000000000000
+Stage 3 Pipeline: relu result: 02c0000000000000, count: 2
+Quantizer Unit: quantizer result: 0b000000, done: 1
+-------------------------------------------------------------
+$stop called at time : 65 ns : File "C:/Vivado Projects/CAO Project/CAO Project.srcs/sim_1/new/tb_ANN.sv" Line 72
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 886.793 ; gain = 29.152
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ANN_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 886.793 ; gain = 29.152
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 888.895 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 23 23:29:51 2025...
